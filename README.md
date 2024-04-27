@@ -1,29 +1,28 @@
-Estudo sobre Terraform
+## Estudo sobre Terraform
 
 Repositorio criado com o intuito de resolver exercicios proposto do terraform para melhor o provisionamento
 
-🚀 Começando
+## 🚀 Começando
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
 Consulte Implantação para saber como implantar o projeto.
 
-📋 Pré-requisitos
-
+## 📋 Pré-requisitos
+```
 Terraform
-Linux - WSL 
+Linux - WSL
+```
 
-🛠️ Construído com
+## 🛠️ Construído com
+```
 Terraform - IaC
+```
 
-📌 Versão
+## 📌 Versão
+```
 Terraform v1.6.3
+```
 
-✒️ Autores
+## ✒️ Autores
 Debora Barboza 
 
-
-🎁 Expressões de gratidão
-Conte a outras pessoas sobre este projeto 📢;
-Convide alguém da equipe para uma cerveja 🍺;
-Um agradecimento publicamente 🫂;
-etc.
