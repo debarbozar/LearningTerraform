@@ -1,3 +1,5 @@
+## Create a EC2
+
 terraform {
   required_providers {
     aws = {
@@ -12,6 +14,7 @@ terraform {
 #who is the provider
 provider "aws" {
   region  = "us-east-1"
+  profile = "tf"
 }
 
 #resource of your ec2
