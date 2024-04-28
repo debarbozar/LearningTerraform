@@ -41,3 +41,4 @@ resource "aws_s3_bucket" "my-test-bucket142" {
 # terraform fmt (formatar no padrão do terraform o codigo)
 # terraform plan -out="tfplan.out" (vai escrever nesse arquivo o output do terrafom plan)
 # terraform apply "tfplan.out"
+# terraform destory

@@ -13,18 +13,17 @@ terraform {
 
 #who is the provider
 provider "aws" {
-  region  = "us-east-1"
-  profile = "tf"
+  region  = var.aws_region
+  profile = var.aws_profile
 }
 
 #resource of your ec2
 resource "aws_instance" "challenge_2" {
-  ami           = "ami-04e5276ebb8451442"
-  instance_type = "t2.micro"
+  ami           = var.instance_ami
+  instance_type = var.instance_type
 
-  tags = {
-    Name = "LaunchEC2"
-  }
+  tags = var.instance_tags
+
 }
 
 ## Terraform init
