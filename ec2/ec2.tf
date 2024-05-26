@@ -4,11 +4,16 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 4.16"
+      version = "~> 4.16" #1.0 até 1.0.n 
     }
   }
 
   required_version = ">= 1.2.0"
+
+  backend local {
+    name = "value"
+  }
+  
 }
 
 #who is the provider
@@ -26,7 +31,10 @@ resource "aws_instance" "challenge_2" {
 
 }
 
+
+### IN TERMINAL ### 
+
 ## Terraform init
-## Terraform plan
+## Terraform plan 
+## Terraform apply -auto-approve
 ## Terraform destroy
-## Terraform aplly
