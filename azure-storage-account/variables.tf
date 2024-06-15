@@ -26,7 +26,7 @@ variable "resource_group_name" {
 variable "storage_account_name" {
   description = "Nome para o Storage Account name"
   type        = string
-  default     = "debarbozaterraform"
+  default     = "debarbozaterraform" ##nome tem que ser unico 
 }
 
 variable "container" {
